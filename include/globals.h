@@ -468,7 +468,7 @@ extern RemoteDebug Debug;           // Let everyone in the project know about it
     #define ENABLE_WEBSERVER        1   // Turn on the internal webserver
     #define ENABLE_NTP              1   // Set the clock from the web
     #define ENABLE_OTA              0  // Accept over the air flash updates
-    #define ENABLE_REMOTE           1   // IR Remote Control
+    #define ENABLE_REMOTE           0   // IR Remote Control
     #define ENABLE_AUDIO            1   // Listen for audio from the microphone and process it
     
     #define DEFAULT_EFFECT_INTERVAL     (60*60*24)
@@ -494,6 +494,7 @@ extern RemoteDebug Debug;           // Let everyone in the project know about it
     #define NOISE_FLOOR    100.0f
 
     #define TOGGLE_BUTTON_1         35
+    #define TOGGLE_BUTTON_2         0
     #define NUM_INFO_PAGES          4
     #define ONSCREEN_SPECTRUM_PAGE  2   // Show a little spectrum analyzer on one of the info pages (slower)
 
